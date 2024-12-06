@@ -43,3 +43,6 @@ while True:
         alunos.append([nome,faltas,media,situacao])
         cont =+1
         print(alunos)
+    
+    elif escolha_menu == 3: #se o usuario escolheu encerrar
+          break #QUEBRA A EXECUÇÃO DO ENQUANTO
